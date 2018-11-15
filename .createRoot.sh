@@ -27,7 +27,7 @@ clean-all:
 %.o: %.cpp
 	\$(CC) -c \$(ROOT) -o \$@ \$<
 $1: \$(OBJ) 
-	\$(CC) \$(ROOT) -o \$@ $^ " > Makefile
+	\$(CC) $^ \$(ROOT) -o \$@ " > Makefile
 
 #______________ remplissage main.cpp _______________#
     echo "#include \"../include/$1.hpp\"
