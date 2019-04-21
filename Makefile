@@ -21,7 +21,7 @@ CFLAGS       = -Wall
 
 ######################## Directory variable definitions ########################
 
-Qt_INC_DIRS  = -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -I/include -I.
+Qt_INC_DIRS  = -I/usr/include/qt4 -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore
 SOURCES_DIR  = src
 SCRIPTS_DIR  = scripts
 
