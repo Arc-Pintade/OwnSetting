@@ -69,7 +69,6 @@ all: $(EXECUTABLE)
 	"**   Woaaa quel codeur... <3   **\n"\
 	"**  Atom > Vim > Rien > Emacs  **\n"\
 	"*********************************\n"
-#	mv ./$(SOURCES_DIR)/*.o ./$(BUILDS_DIR)/
 
 clean:
 	rm -f ./$(BUILDS_DIR)/*.o
